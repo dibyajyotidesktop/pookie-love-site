@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shayonti 💖</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Floating Hearts -->
+    <div class="hearts" aria-hidden="true"></div>
+
+    <!-- Animated Stars -->
+    <div class="stars" aria-hidden="true"></div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor" aria-hidden="true"></div>
+
+    <!-- Entry Gate -->
+    <section class="entry-gate" id="entryGate">
+        <div class="gate-card">
+            <p class="gate-label">Private Entry</p>
+            <h1>Enter the password 💖</h1>
+            <p class="gate-text">Only the right person gets to open this note.</p>
+
+            <form id="passwordForm" class="gate-form">
+                <input
+                    type="password"
+                    id="passwordInput"
+                    placeholder="Password"
+                    autocomplete="current-password"
+                >
+                <button type="submit">Unlock</button>
+                <p id="gateError" class="gate-error" aria-live="polite"></p>
+            </form>
+        </div>
+    </section>
+
+    <div id="siteContent" class="site-content" hidden>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Happy One Month Babeee 💖</h1>
+
+            <h2>Shayonti ✨</h2>
+
+            <p class="hero-text" aria-live="polite">
+                <span id="typingText"></span><span class="typing-caret" aria-hidden="true"></span>
+            </p>
+
+            <p class="date">
+                Since 29/04/2026
+            </p>
+
+            <button id="loveBtn" type="button">
+                Click Here Babeee 💌
+            </button>
+
+            
+        </section>
+
+        <!-- Love Counter -->
+        <section class="counter-section">
+            <h2>Time Since We Became Us 💞</h2>
+
+            <div id="counter"></div>
+        </section>
+
+        <!-- Animated Feature -->
+        <section class="pulse-feature">
+            <p class="section-label">Animated Feature</p>
+            <h2>Shayo is the moon, and Dibbo is the earth</h2>
+
+            <div class="earth-moon-scene" aria-hidden="true">
+                <span class="space-glow"></span>
+                <span class="orbit-path orbit-path-one"></span>
+                <span class="orbit-path orbit-path-two"></span>
+
+                <div class="earth-core">
+                    <span class="earth-planet"></span>
+                    <span class="earth-icon">🌍</span>
+                    <span class="earth-label">Dibbo</span>
+                </div>
+
+                <div class="moon-orbit">
+                    <span class="moon-core">🌙</span>
+                    <span class="moon-label">Shayo</span>
+                </div>
+            </div>
+
+            <p class="pulse-copy">Shayo keeps circling Dibbo's heart like the moon around the earth.</p>
+        </section>
+
+        <!-- Timeline -->
+        <section class="timeline">
+            <h2>Our Love Story 🌸</h2>
+
+            <!-- First Meet -->
+            <div class="card">
+                <h3>30 March 2026 — First Meet 💫</h3>
+
+                <p>
+                    I fell in love at first sight...
+                    Seeing you again and again made my feelings stronger.
+                    Then your laptop got damaged and I finally got a chance to talk with you...
+                </p>
+            </div>
+
+            <!-- Second Meet -->
+            <div class="card">
+                <h3>11 April 2026 — Second Meet 💗</h3>
+
+                <p>
+                    Everything was normal...
+                    but when we suddenly faced each other in your bedroom,
+                    my heart literally stopped for a moment 💖
+                </p>
+            </div>
+
+            <!-- Third Meet -->
+            <div class="card">
+                <h3>18 April 2026 — Third Meet 🌙</h3>
+
+                <p>
+                    Midnight memories with you ✨
+                    Even though nothing special happened,
+                    being near you always felt special.
+                </p>
+            </div>
+
+            <!-- Restaurant Day -->
+            <div class="card">
+                <h3>19 April 2026 — Aava Restaurant Opening 🎉</h3>
+
+                <p>
+                    We kept catching glimpses of each other all day.
+                    The restaurant became super crowded,
+                    and we managed the reception together 💕
+                    Later that night, we all gossip together...
+                </p>
+            </div>
+
+            <!-- Instagram Contact -->
+            <div class="card">
+                <h3>24 April 2026 — Our Contact Started 📱</h3>
+
+                <p>
+                    You texted me first on Instagram from that “Delulu” account… and accidentally became the best part of my life...
+                    Then Pinterest became our little world 💖
+                    That's where our bond slowly became beautiful.
+                </p>
+            </div>
+
+            <!-- Proposal -->
+            <div class="card proposal-card">
+                <h3>29 April 2026 — Proposal Day 💍</h3>
+
+                <p>
+                    The most special day of my life...
+                    While talking on Pinterest, love suddenly entered our conversation.
+                    You gave me the green signal...
+                    and I finally said:
+                </p>
+
+                <div class="quote">
+                    “Sach bolu... I think I've fallen for you too.” 💖
+                </div>
+
+                <p>
+                    You accepted me...
+                    and shared your heart with me completely 💕
+                </p>
+            </div>
+
+            <!-- Fourth Meet -->
+            <div class="card">
+                <h3>17 May 2026 — First Kiss 💋</h3>
+
+                <p>
+                    You gifted me a hair tie...
+                    We kissed for the first time 💖
+                    Played Ludo together,
+                    shared ice cream,
+                    drank coffee from the same cup ☕
+                    and spent the whole day beautifully.
+                </p>
+            </div>
+
+            <!-- Longest Conversation -->
+            <div class="card">
+                <h3>21 May 2026 — Longest Conversation 💬</h3>
+
+                <p>
+                    4 hours 48 minutes of nonstop talking 💖
+                    Pinterest + Discord memories forever ✨
+                </p>
+            </div>
+
+            <!-- Fifth Meet -->
+            <div class="card">
+                <h3>27 May 2026 — Beautiful Day Together 🌸</h3>
+
+                <p>
+                    We spent such a fun and emotional day together...
+                    Bottle flip game, songs, chocolates, laughter,
+                    hand holding and your special coffee ☕💕
+                    Every moment with you feels magical.
+                </p>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section class="video-section">
+            <h2>My Sweetheart🎥</h2>
+            <figure class="video-card">
+                <video class="video-card__media" controls playsinline>
+                    <source src="gallary/shayo-video.mp4" type="video/mp4">
+                </video>
+                <figcaption>Cutest moments — made for you 💕</figcaption>
+            </figure>
+        </section>
+
+        <!-- Photo Gallery -->
+        <section class="gallery-section">
+            <h2>Photo Gallery 💕</h2>
+
+            <div class="gallery couple-gallery">
+                <figure class="photo-card">
+                    <img src="gallary/pookie-photo.jpeg" alt="Couple photo" loading="lazy">
+                    <figcaption>Our Day Together 🌸</figcaption>
+                </figure>
+
+                <aside class="photo-note" aria-live="polite">
+                    <h3>A little note for you</h3>
+                    <p>
+                        My sweetest Shayo — you are my calm in every storm, my laughter in quiet rooms,
+                        and the soft light that makes everything better. I carry you in my thoughts
+                        every moment and I love you more than words can hold. 💖
+                    </p>
+                    <p class="note-sign">— Always, Dibbo ✨</p>
+                </aside>
+            </div>
+        </section>
+
+        <!-- Final Message -->
+        <section class="final">
+            <h2>To My Babeee 💖</h2>
+
+            <p>
+                We may be long distance...
+                but not a single day passes without missing you.
+            </p>
+
+            <p>
+                You're my luckycharm ✨
+                My Shanti 💕
+                My safest place 🌸
+            </p>
+
+            <h3>
+                I love you Shayonti 💖
+            </h3>
+        </section>
+
+        <!-- Music -->
+        <div class="music-control">
+            <button id="musicToggle" aria-pressed="true" type="button" title="Pause music">⏸️</button>
+        </div>
+
+        <audio id="backgroundAudio" autoplay loop>
+            <source src="gallary/doorondooron-music.mp3" type="audio/mp3">
+        </audio>
+
+        <!-- Love Card Window -->
+        <div id="loveModal" class="love-modal" hidden>
+            <div class="love-modal__backdrop" data-close-love-modal></div>
+
+            <div class="love-card-window" role="dialog" aria-modal="true" aria-labelledby="loveModalTitle">
+                <button type="button" class="love-modal__close" aria-label="Close love card" data-close-love-modal>
+                    ×
+                </button>
+
+                <p class="love-modal__label">Love Card Window</p>
+                <h2 id="loveModalTitle">A little letter for my babeee 💖</h2>
+
+                <div class="love-card-letter">
+                    <p>I wanted to give you a tiny window full of love.</p>
+                    <p>You make my world softer, brighter, and endlessly sweeter.</p>
+                    <p>Every day with you feels like a beautiful story I never want to end.</p>
+                    <p class="love-card-signoff">Always yours, with all my heart 💕</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
